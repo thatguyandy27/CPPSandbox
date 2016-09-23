@@ -7,9 +7,33 @@
 //
 
 #include <iostream>
+#include <vector>
+#include "median.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    vector<double> list;
+    double val;
+
+    while(cin >> val){
+        list.push_back(val);
+    }
+
+    vector<double>::iterator found = find(list.begin(), list.end(), 10);
+    if(found == list.end()){
+        cout << "10 not found in list" << endl;
+    }
+    else {
+        cout << "Found the number 10" << endl;
+    }
+    
+    reverse(list.begin(), list.end());
+    
+    for(vector<double>::iterator i = list.begin(); i < list.end(); i++){
+        cout << *i <<endl;
+    }
+    
     return 0;
 }
