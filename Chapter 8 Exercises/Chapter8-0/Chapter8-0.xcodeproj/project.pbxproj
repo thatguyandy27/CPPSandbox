@@ -31,6 +31,7 @@
 		7B40FCCB1D933FE20018103F /* median.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = median.h; sourceTree = "<group>"; };
 		7B40FCCD1D955DAD0018103F /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
 		7B40FCCE1D955DAD0018103F /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		7B40FCD11D9827CE0018103F /* string_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_util.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		7B40FCC21D933F960018103F /* Chapter8-0 */ = {
 			isa = PBXGroup;
 			children = (
+				7B40FCD11D9827CE0018103F /* string_util.h */,
 				7B40FCCA1D933FE20018103F /* median.cpp */,
 				7B40FCCB1D933FE20018103F /* median.h */,
 				7B40FCC31D933F960018103F /* main.cpp */,
@@ -251,6 +253,7 @@
 				7B40FCC91D933F960018103F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
